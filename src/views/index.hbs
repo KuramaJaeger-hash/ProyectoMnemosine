@@ -1,0 +1,21 @@
+<main class="index">
+    <header class="masthead d-flex">
+        <div class="container text-center my-auto">
+            <h1 class="mb-1">Proyecto Mnemosine</h1>
+            <h3 class="mb-5">
+                <em>Empieza a guardar tus tareas en la aplicacion de hoy</em>
+            </h3>
+            {{#if user}}
+            <a class="btn btn-primary btn-lg" href="/profile">
+                Empieza aqui!
+            </a>
+             {{else}}
+            <a class="btn btn-primary btn-lg" href="/signin">
+                Empieza aqui!
+            </a>
+            {{/if}}
+
+        </div>
+        <div class="overlay"></div>
+    </header>
+</main>
